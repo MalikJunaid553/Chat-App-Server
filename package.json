@@ -1,0 +1,28 @@
+{
+  "name": "chat-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MalikJunaid553/Chat-App-Server#readme",
+  "bugs": {
+    "url": "https://github.com/MalikJunaid553/Chat-App-Server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalikJunaid553/Chat-App-Server.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.3"
+  }
+}
