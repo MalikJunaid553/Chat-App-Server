@@ -32,6 +32,6 @@ io.on("connection", (socket)=>{
     });
 });
 
-app.listen(5050 , ()=>{
-    console.log("Server is runnig on port 5050")
-})
+server.listen(5050, () => {
+    console.log("Server is running on port 5050");
+});
