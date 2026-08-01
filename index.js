@@ -54,7 +54,7 @@ io.on("connection", (socket) => {
 
 
 // React fallback
-app.get("*", (req, res) => {
+app.get("/{*splat}", (req, res) => {
     res.sendFile(
         path.join(__dirname, "client", "dist", "index.html")
     );
